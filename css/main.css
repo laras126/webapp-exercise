@@ -1,0 +1,73 @@
+
+
+/* ------- */
+/* General */
+/* ------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+}
+
+.wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+
+/* ------ */
+/* Header */
+/* ------ */
+
+
+/* --- */
+/* Nav */
+/* --- */
+
+
+
+/* ------- */
+/* Content */
+/* ------- */
+
+
+
+/* ------ */
+/* Footer */
+/* ------ */
+
+
+
+/* ------- */
+/* Utility */
+/* ------- */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
